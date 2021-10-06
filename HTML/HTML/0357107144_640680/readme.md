@@ -1,0 +1,1 @@
+Here's a readme file just for now, stil trying to figure out how this works. If i manaage to see this when i work at school tmr everything should be all set
