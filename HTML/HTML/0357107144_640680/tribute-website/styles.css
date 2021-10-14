@@ -1,0 +1,88 @@
+html {
+  background-color: lightgrey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 3em;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.🦸‍♂️ {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.wallgroup.com/media/catalog/product/cache/ce339dd56671d6bccbcac0916ee6b376/w/0/w00629_option3.jpg");
+  background-size: cover;
+}
+
+.🦸‍♂️::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 10rem;
+  line-height: 0.9;
+  text-align: center;
+  opacity: 100;
+}
+
+h2 {
+  position: relative;
+  font-size: 2.5rem;
+  line-height: 0.9;
+  text-align: left;
+  opacity: 100;
+  margin-left: 8px;
+}
+
+span {
+  position: relative;
+  color: #ffffff;
+  font-size: 4rem;
+  height: 60px;
+  line-height: 0.9;
+  text-align: center;
+  opacity: 100;
+}
+
+img {
+  float: right;
+  height: 330px;
+  width: 630px;
+  margin: 16px;
+}
+
+p {
+  text-align: left;
+  font-size: 24px;
+  line-height: 50px;
+  float: none;
+  margin-left: 8px;
+}
