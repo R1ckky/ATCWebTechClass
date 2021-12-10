@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Coding Challenge 2
+
+   Author:Yasmin Amaro
+   Date:11/8/21   
+   
+   Filename: code4-2_grad.css
+
+*/
+
+h1, h2 {
+	text-shadow: white -2px -2px 3px;
+}
+p{
+	text-shadow: red 2px 2px 3px;
+}
+article {
+	box-shadow: inset black 0px 0px 50px 20px;
+	border-radius: 150px;
+	background-image: url(landscape.png), linear-gradient(165deg, black, rgb(0,0,200)65%, rgb(211,0,55)75%, orange 80%, yellow 82%);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 100%;
+}
